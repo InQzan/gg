@@ -34,7 +34,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Калькулятор"))
+        self.pushButton.setText(_translate("MainWindow", "ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°"))
         self.pushButton_2.setText(_translate("MainWindow", "Chrome"))
         self.pushButton_3.setText(_translate("MainWindow", "YouTube"))
-        self.pushButton_4.setText(_translate("MainWindow", "Сюрприз"))
+        self.pushButton_4.setText(_translate("MainWindow", "Г‘ГѕГ°ГЇГ°ГЁГ§"))
+
