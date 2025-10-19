@@ -19,6 +19,9 @@ class Ui_MainWindow(object):
         self.pushButton_4 = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButton_4.setGeometry(QtCore.QRect(90, 30, 75, 23))
         self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(50, 55, 75, 23))
+        self.pushButton_5.setObjectName("pushButton_5")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 179, 21))
@@ -33,9 +36,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Êàëüêóëÿòîð"))
-        self.pushButton_2.setText(_translate("MainWindow", "Chrome"))
+        self.pushButton.setText(_translate("MainWindow", "Calc"))
+        self.pushButton_2.setText(_translate("MainWindow", "gdz"))
         self.pushButton_3.setText(_translate("MainWindow", "YouTube"))
-        self.pushButton_4.setText(_translate("MainWindow", "Ñþðïðèç"))
-
+        self.pushButton_4.setText(_translate("MainWindow", "worts game"))
+        self.pushButton_5.setText(_translate("MainWindow", "сюрприз"))
